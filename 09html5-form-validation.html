@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Form Validation</title>
+</head>
+<body> <!-- khi có required="required" thì sẽ bắt buộc người dùng phải nhập thì mới có thể gửi đi thông tin -->
+<form action="http://www.example.com/login/" method="post">
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" required="required"> <br/>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required="required">
+    <!-- type="password" là khi nhập vào sẽ hiển thị * giúp bảo mật thông tin -->
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
